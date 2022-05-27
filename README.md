@@ -1,10 +1,11 @@
 # trie-tree
 
 🔖
+
+
+TrieNode curNode= root;	
 char[] arr= word.toCharArray();
-
-
-TrieNode curNode= root;		
+	
 		for(char curChar : arr) {
 			if(curNode.children.containsKey(curNode)==false) {
 				
